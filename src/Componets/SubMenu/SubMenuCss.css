@@ -1,0 +1,56 @@
+.SideNav{
+    width:250px;
+    height: 100vh;
+    background: #15252b99;
+    /* position: absolute;
+    top: 0;
+    left:-600px; */
+}
+/* .SideNav{ 
+    position: absolute;
+    top: 0;
+    left:600px;
+} */
+.Cloc__icons{
+    font-size: 35px;
+    color: #fff;
+}
+.Frist__SubMenu__Item ul{
+    padding: 11px 0px 11px 32px;
+    margin: 0px;
+}.Frist__SubMenu__Item ul li{
+    list-style: none;
+    padding:5px 0px 5px 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}.Secend__SubMenu__Item.Frist__SubMenu__Item ul li:hover{
+    background:#156f8b;
+    border-radius: 10px 0px !important;
+    -webkit-border-radius: 10px 0px !important;
+    -moz-border-radius: 10px 0px !important;
+    -ms-border-radius: 10px 0px !important;
+    -o-border-radius: 10px 0px !important;
+}.Frist__SubMenu__Item ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size:15px;
+}
+.SubMenu__Icon{
+    padding-right: 14px;
+}
+.Secend__SubMenu__Item{
+    padding:0px;
+    margin: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.517);
+}.Secend__SubMenu__Item:first-child{
+    padding:0px;
+    margin: 0px;
+    border-top: 0px solid #fff;
+}
+.SubMenu__Close__icon{
+    background:#156f8b;
+    padding:6px;
+}
